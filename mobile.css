@@ -87,7 +87,7 @@
         .secondary-btn{
     
 
-            padding: 12px 28px;
+            padding: 12px 20px;
             gap: 10px;
             border-radius: 4.2rem ;
             background-color: transparent;
@@ -102,7 +102,7 @@
                 background-color: rgba(48, 48, 48, 0.911);
               text-align: center;
               padding: 40px 0px;
-              max-width: 250px;
+              max-width: 200px;
               transform: translate(1px, -150px);
               display: flex;
               justify-content: space-evenly;
@@ -121,14 +121,19 @@
             .img-btn2{
                 background-color: rgba(61, 59, 59, 0.911);
               text-align: center;
-              padding: 20px 10px;
-              max-width: 200px;
+              padding: 15px 10px;
+              max-width: 150px;
               transform: translate(200px, -650px);
               display: flex;
               justify-content: space-evenly;
               align-items: center;
               border-radius: 25px;
              
+            }
+
+            .img-btn2 h2{
+                font-size: 3.0rem;
+
             }
 
 
