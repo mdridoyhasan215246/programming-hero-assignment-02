@@ -1,0 +1,245 @@
+@media screen and (max-width: 576px) {
+    
+
+   
+    h2{
+        font-size:3.8rem;
+        font-weight: 900;
+        line-height: 5.7rem;
+    }
+    h3{
+        font-size:2.0rem;
+        font-weight: 900;
+    }
+
+
+    /* <!-- menu for mobile device  --> */
+
+
+    .main-header{
+        display: none;
+      
+        
+    }
+    .header-mobile{
+         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 20px;
+     
+    
+
+     
+    }
+    .header-mobile img{
+        background-color: var(--btn-color);
+        padding: 10px;
+    }
+    /*   <!-- menu for mobile device  --> */
+
+    /* hero responsive code  */
+
+
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items:flex-start;
+        flex-basis: 100%;
+        gap: 20px;
+        padding: 20px;
+    }
+
+
+    .hero-left span{
+        font-size: 5.8rem;
+        font-family: var(--secondary-font);
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .hero-left h1{
+        font-size: 3.6rem;
+        font-weight: 900;
+        line-height: 4.3rem;
+    }
+
+    .hero-btn-group{
+        align-items: center;
+    }
+
+    .primary-btn{
+    
+
+        padding: 16px 30px;
+        gap: 10px;
+        border-radius: 4.2rem ;
+        background-color: var(--btn-color);
+        font-size: 1.6rem;
+        
+        
+        
+        }
+
+
+        .secondary-btn{
+    
+
+            padding: 12px 28px;
+            gap: 10px;
+            border-radius: 4.2rem ;
+            background-color: transparent;
+            border: 1px solid white;
+        
+            
+            
+            }
+
+        
+            .img-btn{
+                background-color: rgba(48, 48, 48, 0.911);
+              text-align: center;
+              padding: 40px 0px;
+              max-width: 250px;
+              transform: translate(1px, -150px);
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+             
+              border-radius: 25px;
+            
+              
+            
+            
+            
+            }
+
+
+
+            .img-btn2{
+                background-color: rgba(61, 59, 59, 0.911);
+              text-align: center;
+              padding: 20px 10px;
+              max-width: 200px;
+              transform: translate(200px, -650px);
+              display: flex;
+              justify-content: space-evenly;
+              align-items: center;
+              border-radius: 25px;
+             
+            }
+
+
+
+
+
+
+
+
+            /* habit section style start  */
+
+            .habit-section{
+                margin-top: -120px;
+            }
+            .habit-cards{
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 40px;
+            }
+
+
+
+
+
+
+
+            /* run section style  */
+
+            .run-container{
+                display: flex;
+                flex-direction: column;
+                margin: 15px;
+                align-items: center;
+                flex-basis: 100%;
+                gap: 50px;
+                background-color: #222222;
+                padding: 40px;
+                border-radius: 18px;
+            }
+
+            .run-left{
+                flex-basis: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .run-left P{
+                margin-bottom: 10px;
+                width: auto;
+            }
+
+            .run-right{
+                flex-basis: 50%;
+                text-align: center;
+                
+            }
+
+            .run-btn a{
+
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                font-weight: 500;
+            }
+
+
+
+
+
+
+            /* training section  */
+
+
+            .training-title{
+                padding: 10px 20px;
+            }
+            .training-cards{
+                display: grid;
+                grid-template-columns: repeat( 3,  1fr);
+                grid-template-rows: repeat(1, 200px 1fr);
+                
+            }
+            
+            
+            .training-cards2{
+                display: grid;
+                grid-template-columns: repeat( 3,  1fr);
+                grid-template-rows: repeat(1, 200px 1fr);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
