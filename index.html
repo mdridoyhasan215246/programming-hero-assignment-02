@@ -332,9 +332,9 @@
 
 
 
-        <section class="bim-title-section">
+        <section class="bmi-title-section">
             
-               <div class="container bim-title">
+               <div class="container bmi-title">
                     <h2>BMI Calculator</h2>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                
@@ -342,15 +342,91 @@
 
         </section>
 
-        <section class="bim section">
-            <div class="container bim-container">
-                <div class="bim-left">
+        <section class="bmi-section">
+            <div class="container bmi-container">
+                <div class="bmi-left">
+
+                    <div class="bmi-left-heading">
+                        <h3>BMI Calculator Chart</h3>
+                    </div>
+
+                    <div class="bmi-table">
+
+                        <table>
+
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+
+
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                            
+                        </table>
+
+
+                    </div>
 
                 </div>
 
 
 
-                <div class="bim-right">
+                <div class="bmi-right">
+
+                    <div class="bmi-cal-heading">
+                        <h3>Calculate your BMI</h3>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+                    </div>
+
+                    <div class="bmi-form">
+
+
+                        <input type="text" placeholder="Height/cm">
+                        
+                        <input type="text" placeholder="Weight/kg">
+                        <br>
+
+                        <input type="text" placeholder="Age">
+                        
+                       <select id="gender" name="gender">
+                        <option value="" disabled selected >Sex</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                       
+                    </select>
+
+                    <br>
+                        
+                    <select id="activity" name="activity" class="bmi-activity">
+                     <option value="" disabled selected >Select an activity</option>
+                     <option value="Male">Push Up</option>
+                     <option value="Female">Workout</option>
+                    
+                 </select>
+
+                       
+                    </div>
+
+
+
+                   <div class="bmi-btn"> <a class="primary-btn">Calculate</a></div>
+
 
                 </div>
             </div>

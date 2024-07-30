@@ -1,5 +1,8 @@
 @media screen and (max-width: 576px) {
     
+    body {
+        overflow-x: hidden;
+    }
 
    
     h2{
@@ -123,7 +126,7 @@
               text-align: center;
               padding: 15px 10px;
               max-width: 150px;
-              transform: translate(200px, -650px);
+              transform: translate(190px, -650px);
               display: flex;
               justify-content: space-evenly;
               align-items: center;
@@ -232,6 +235,59 @@
 
 
 
+
+
+            /* bmi section start  */
+
+
+
+            .bmi-section{
+                
+                padding:50px 20px;
+            
+            }
+
+            .bmi-title-section {
+                
+                padding: 0px 20px;
+            
+            }
+
+
+            .bmi-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-basis: 100%;
+                gap: 50px;
+                
+            }
+
+
+            .bmi-form input, select{
+
+                width: 160px;
+                height: 40px;
+                margin: 5px;
+                padding: 12px 40px 12px 20px;
+                border-radius: 8px;
+                background-color: #FFFFFF1A;
+                border: none;
+                color:#FFFFFF80 ;
+                font-size: 1.4rem;
+              
+                
+                
+            
+            
+            }
+
+            .bmi-activity{
+                width: 335px;
+                
+            }
+            
 
 
 

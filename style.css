@@ -567,28 +567,119 @@ font-weight: 500;
 
 
 
-/* bim section style start  */
+/* bmi section style start  */
 
 
 
 
+.bmi-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-basis: 100%;
+}
 
-.bim-title{
+
+
+.bmi-left{
+    flex-basis: 50%;
+    
+}
+.bmi-right{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+
+
+.bmi-title{
 
    max-width: 600px;
     text-align: left;
     margin: 80px auto;
 }
-.bim-container{
+.bmi-section{
     background: #222222;
+    padding: 52px 0px;
 
+}
+.bmi-table{
+    max-width: 310px;
+    margin-top: 40px;
+}
+
+.bmi-table table th{
+
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+    padding: 12px 17px;
+    text-align: left;
+}
+
+.bmi-table table, th, td, tr{
+    border: 1px solid #FFFFFF1A;
+    
+    border-collapse: collapse; 
+    
 }
 
 
 
+.bmi-table table td{
+    color:#FFFFFF80;
+    font-size: 1.4rem;
+    padding: 12px 17px;
+    
+}
 
 
 
+.bmi-cal-heading p{
+    margin-top: 10px;
+}
+
+
+
+.bmi-form input, select{
+
+    width: 240px;
+    height: 40px;
+    margin: 5px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background-color: #FFFFFF1A;
+    border: none;
+    color:#FFFFFF80 ;
+    font-size: 1.4rem;
+
+
+}
+.bmi-form select option{
+    background-color: black;
+    font-size: 1.4rem;
+   
+}
+.bmi-form select option
+
+.bmi-form input::placeholder{
+    color:#FFFFFF99;
+    
+}
+.bmi-form input:disabled{
+    color:#FFFFFF99;
+}
+
+
+.bmi-activity{
+    width: 493px;
+    
+}
 
 
 
