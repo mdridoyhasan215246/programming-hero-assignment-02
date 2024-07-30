@@ -196,6 +196,12 @@
                 
             }
 
+            .run-right img{
+
+                width: 310px !important;
+                height: auto;
+
+            }
             .run-btn a{
 
                 display: flex;
@@ -287,7 +293,9 @@
                 width: 335px;
                 
             }
-            
+            .bmi-form{
+                margin-left:-12px;
+            }
 
 
 
