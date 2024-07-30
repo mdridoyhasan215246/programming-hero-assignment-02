@@ -685,3 +685,100 @@ font-weight: 500;
 
 
 /* bim section style end  */
+
+
+
+
+
+
+/* team section style start  */
+
+
+.team-section{
+    margin-bottom: 100px;
+}
+
+
+.team-heading{
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 50px;
+}
+.team-heading p{
+    margin-top: 10px;
+}
+
+.team-members{
+    display: grid;
+    grid-template-columns: 326px 326px 326px;
+    grid-template-rows: 272px 272px;
+    gap: 20px;
+    background: #FFFFFF1A;
+    padding: 20px;
+    border-radius: 18px;
+
+}
+
+
+
+.team-member1{
+    background-image: url(./images/trainer1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+
+
+.team-member2{
+    background-image: url(./images/trainer2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+
+.team-member3{
+    background-image: url(./images/trainer3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    
+}
+
+.team-member4{
+    background-image: url(./images/trainer4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+
+}
+
+.team-member5{
+    background-image: url(./images/trainer5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+
+}
+
+
+
+.team-member6{
+    background-image: url(./images/trainer6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+
+}
+
+
+
+
+/* team section style end  */
