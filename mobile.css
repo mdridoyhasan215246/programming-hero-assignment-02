@@ -145,12 +145,45 @@
 
 
 
+            /* about section start  */
+
+
+
+            .about-heading{
+                text-align: center;
+                margin-top: -150px;
+            
+            }
+            .about-container{
+
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 50px;
+                padding: 0px 20px;
+                
+            }
+           
+
+            .about-right img{
+
+                max-width: 350px ;
+                max-height: 500px;
+            
+                
+                
+            }
+
+
+
+
+
+
 
             /* habit section style start  */
 
-            .habit-section{
-                margin-top: -120px;
-            }
+            
             .habit-cards{
                 margin-top: 50px;
                 display: grid;
